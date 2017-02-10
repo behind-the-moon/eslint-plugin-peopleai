@@ -1,8 +1,9 @@
 {
   "name": "eslint-plugin-peopleai",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "lib/index.js",
+  "keywords": [ "eslint", "eslintplugin", "riot", "riot eslint" ],
   "scripts": {
     "test": "mocha tests/*"
   },
