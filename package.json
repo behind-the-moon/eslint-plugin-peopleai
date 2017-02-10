@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-peopleai",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behind-the-moon/eslint-plugin-peopleai.git"
+  },
+  "author": "Svetlana Linuxenko <linuxenko@yahoo.com> (http://www.linuxenko.pro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/behind-the-moon/eslint-plugin-peopleai/issues"
+  },
+  "homepage": "https://github.com/behind-the-moon/eslint-plugin-peopleai#readme",
+  "dependencies": {
+    "htmlparser2": "^3.9.2"
+  },
+  "peerDependencies": {
+    "eslint": "^3.15.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.15.0",
+    "mocha": "^3.2.0"
+  }
+}
