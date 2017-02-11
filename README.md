@@ -16,7 +16,10 @@ Inside of your .eslintrc
 
 ```
 {
-  plugins: [ 'peopleai' ]
+  "plugins": [ "peopleai" ],
+  "rules" : {
+    "peopleai/root-context-name-tag" : 2
+  }
 }
 ```
 

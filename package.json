@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-peopleai",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "lib/index.js",
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "test": "npm run lint && npm run mocha",
-    "mocha": "mocha tests/**/*.js",
+    "mocha": "mocha tests/**",
     "lint": "eslint ."
   },
   "repository": {
