@@ -2,7 +2,7 @@
 
 In general, customized `riot's` `tag` files linter with a couple of custom rules.
 
-[![Build Status](https://img.shields.io/travis/behind-the-moon/eslint-plugin-peopleai.svg?style=flat-square)](https://travis-ci.org/behind-the-moon/eslint-plugin-peopleai.svg) [![npm version](https://img.shields.io/npm/v/eslint-plugin-peopleai.svg?style=flat-square)](https://www.npmjs.com/package/eslint-plugin-peopleai) [![license](https://img.shields.io/github/license/behind-the-moon/eslint-plugin-peopleai.svg?style=flat-square)]() 
+[![Build Status](https://img.shields.io/travis/behind-the-moon/eslint-plugin-peopleai.svg?style=flat-square)](https://travis-ci.org/behind-the-moon/eslint-plugin-peopleai) [![npm version](https://img.shields.io/npm/v/eslint-plugin-peopleai.svg?style=flat-square)](https://www.npmjs.com/package/eslint-plugin-peopleai) [![license](https://img.shields.io/github/license/behind-the-moon/eslint-plugin-peopleai.svg?style=flat-square)]() [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
 ### Installation
 
@@ -40,6 +40,9 @@ Inside of your .eslintrc
 
 
 [![Screenshot](https://raw.githubusercontent.com/behind-the-moon/eslint-plugin-peopleai/master/contrib/tags-lint.png)]()
+
+### Further reading
+  * [syntastic support of .tag files](https://github.com/vim-syntastic/syntastic/pull/1962)
 
 ### License
 
