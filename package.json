@@ -5,7 +5,9 @@
   "main": "lib/index.js",
   "keywords": [ "eslint", "eslintplugin", "riot", "riot eslint" ],
   "scripts": {
-    "test": "mocha tests/*"
+    "test": "npm run lint && npm run mocha",
+    "mocha": "mocha tests/**/*.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
     "mocha": "^3.2.0"
   }
 }

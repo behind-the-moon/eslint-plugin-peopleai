@@ -1,27 +1,26 @@
 var expect = require('chai').expect;
 var path = require('path');
-var CLIEngine = require("eslint").CLIEngine;
+var CLIEngine = require('eslint').CLIEngine;
 var plugin = require('..');
 
-function execute(file, baseConfig) {
+function execute (file, baseConfig) {
   if (!baseConfig) baseConfig = {};
 
   var cli = new CLIEngine({
-    extensions: ["tag"],
+    extensions: ['tag'],
     baseConfig: {
       settings: baseConfig.settings,
       rules: Object.assign({
-        'no-console': 2,
-      }, baseConfig.rules),
+        'no-console': 2
+      }, baseConfig.rules)
     },
     ignore: false,
-    useEslintrc: false,
+    useEslintrc: false
   });
   cli.addPlugin('tag', plugin);
   var results = cli.executeOnFiles([path.join(__dirname, 'fixtures', file)]).results;
   return results[0] && results[0].messages;
 }
-
 
 describe('Test tags plugin', function () {
   it('should pass successful test', function () {
